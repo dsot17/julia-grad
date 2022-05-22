@@ -367,5 +367,3 @@ end;
     @test p1.grad.data == [7 8 9; 7 8 9]
     @test p2.grad.data == [5 7 9]
 end
-
-σ(Param(rand(3,3)))
